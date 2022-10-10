@@ -195,7 +195,7 @@ p, ul {
 
     background-color: var(--color-rojo);
     color: #fff;
-    transition: .3s;
+    transition: .1s;
 }
 
 .mostrar {
@@ -822,6 +822,11 @@ padding: 0;
         background-attachment: fixed;
     }
     
+    .nav__items:hover {
+
+        transition: .3s;
+    }
+
     .complejo__text {
 
         width: 70%;
@@ -915,6 +920,11 @@ padding: 0;
     .banner__title {
 
         font-size: 50px;
+    }
+
+    .nav__items:hover {
+
+        transition: .3s;
     }
 
     .wpp {
@@ -1073,6 +1083,11 @@ padding: 0;
         display: none;
     }
 
+    .nav__items:hover {
+
+        transition: .3s;
+    }
+
     .wpp {
 
         position: fixed;
@@ -1212,6 +1227,11 @@ padding: 0;
     .nav__items2 {
 
         font-size: 16px;
+    }
+
+    .nav__items:hover {
+
+        transition: .3s;
     }
 
     .banner-invisible {
