@@ -4,3 +4,50 @@ Arreglar seccion contacto
 ALEJO
 Agregar como ubicacion existente en google maps.
 Agregar imagenes q faltan y video.
+
+var dep1= document.getElementById('dep1');
+var dep2= document.getElementById('dep2');
+var dep3= document.getElementById('dep3');
+var ext= document.getElementById('ext');
+var row1= document.getElementById('row1');
+var row2= document.getElementById('row2');
+var row3= document.getElementById('row3');
+var row4= document.getElementById('row4');
+var column= document.getElementById('column');
+var alert= document.getElementById('alert');
+
+dep1.addEventListener('click', function(){
+    row2.classList.add('hide');
+    row3.classList.add('hide');
+    row4.classList.add('hide');
+    row1.classList.remove('hide');
+    column.classList.add('show');
+    alert.classList.add('hide');
+});
+
+dep2.addEventListener('click', function(){
+    row1.classList.add('hide');
+    row3.classList.add('hide');
+    row4.classList.add('hide');
+    row2.classList.remove('hide');
+    column.classList.add('show');
+    alert.classList.add('hide');
+});
+
+dep3.addEventListener('click', function(){
+    row1.classList.add('hide');
+    row2.classList.add('hide');
+    row4.classList.add('hide');
+    row3.classList.remove('hide');
+    column.classList.add('show');
+    alert.classList.add('hide');
+});
+
+ext.addEventListener('click', function(){
+    row1.classList.add('hide');
+    row2.classList.add('hide');
+    row3.classList.add('hide');
+    row4.classList.remove('hide');
+    column.classList.add('show');
+    alert.classList.add('hide');
+});

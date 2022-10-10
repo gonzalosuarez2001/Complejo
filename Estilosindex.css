@@ -107,7 +107,7 @@ p, ul {
 
     transition: .3s;
     background-color: #fff;
-    color: #d9264b;
+    color: var(--color-rojo);
 }
 
 /*----------Header----------*/
@@ -118,7 +118,7 @@ p, ul {
     position:sticky;
     top: 0px;
     z-index: 2000;
-    box-shadow: 0 4px 4px -2px gray;
+    box-shadow: 0 2px 8px -2px rgb(128,128,128);
 }
 
 .header__contenedor {
@@ -168,7 +168,7 @@ p, ul {
     position: fixed;
     top: -437.5px;
     transition: .3s;
-    box-shadow: 0 4px 4px -2px gray;
+    box-shadow: 0 2px 8px -2px rgb(128,128,128);
     z-index: -20;
 }
 
@@ -188,7 +188,7 @@ p, ul {
     color: var(--color-rojo);
     font-weight: 400;
     font-size: 15px;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .nav__items:hover {
@@ -308,7 +308,7 @@ p, ul {
     font-weight: 700;
     font-size: 27px;
     margin-bottom: 0px;
-    border-bottom: 0px solid #d9264b;
+    border-bottom: 0px solid var(--color-rojo);
     padding: 0 15px;
 }
 
@@ -419,7 +419,7 @@ p, ul {
     color: #fff;
     font-weight: 700;
     font-size: 27px;
-    border-bottom: 0px solid #d9264b;
+    border-bottom: 0px solid var(--color-rojo);
     padding: 0 15px;
 }
 
@@ -473,7 +473,7 @@ p, ul {
     font-weight: 700;
     font-size: 27px;
     margin-bottom: 0px;
-    border-bottom: 0px solid #d9264b;
+    border-bottom: 0px solid var(--color-rojo);
     padding: 0 15px;
 }
 
@@ -497,7 +497,7 @@ border-radius: 7.6px;
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-background: #d9264b;
+background: var(--color-rojo);
 color: #fff;
 }
 
@@ -587,7 +587,7 @@ padding: 0;
     font-weight: 700;
     font-size: 27px;
     margin-bottom: 0px;
-    border-bottom: 0px solid #d9264b;
+    border-bottom: 0px solid var(--color-rojo);
     padding: 0 15px;
 }
 
