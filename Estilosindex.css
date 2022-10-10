@@ -195,7 +195,6 @@ p, ul {
 
     background-color: var(--color-rojo);
     color: #fff;
-    transition: .1s;
 }
 
 .mostrar {
