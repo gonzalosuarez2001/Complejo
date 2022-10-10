@@ -402,8 +402,8 @@ p, ul {
 
 .servicios {
 
-    background-image: url(Multimedia/Ambiente1.jpg);
-    background-attachment: fixed;
+    background-image: url(Multimedia/ServiciosFondo.jpg);
+    /*background-attachment: fixed;*/
     background-size: cover;
     background-position: -300px;
 }
