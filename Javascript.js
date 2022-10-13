@@ -160,10 +160,10 @@ function scroll() {
     if (scrollTop >= 647) {
         header.style.background = '#fff';
         header.style.boxShadow = '0 2px 8px -2px rgb(128,128,128)';
-        bars.style.display = 'inline';
-        bars.style.color = '#d9264b';  
-        logo.style.display = 'inline';
+        bars.style.color = '#d9264b';
+        bars.style.display = 'inline'; 
         logo.style.color = '#d9264b'; 
+        logo.style.display = 'inline';
         wpp.style.position = 'fixed';
         wpp.style.top = 'auto';
         wpp.style.bottom = '17.5px';
