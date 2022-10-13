@@ -132,17 +132,17 @@ samayWayra.addEventListener("click", function() {
 
 
 
-
-
 bars.addEventListener('click', function(){
     nav.classList.toggle('mostrar');
     bars.classList.toggle('fa-times');
     if(nav.classList == 'nav contenedor mostrar'){
         let body = document.getElementById('body');
         body.style.overflow = 'hidden';
+        header.style.boxShadow = 'none';
     } else{
         let body = document.getElementById('body');
         body.style.overflow = 'auto';
+        header.style.boxShadow = '0 2px 8px -2px rgb(128,128,128)';
     } 
 });
 
@@ -152,15 +152,18 @@ function scroll() {
     if (scrollTop < 647) {
         header.style.background = 'linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.55))';
         header.style.boxShadow = 'none';
+        logo.style.color = 'transparent';  
         bars.style.color = 'transparent';  
         bars.style.display = 'none';   
-        logo.style.color = 'transparent';
+        logo.style.display = 'none';
     }
     if (scrollTop >= 647) {
         header.style.background = '#fff';
+        header.style.boxShadow = '0 2px 8px -2px rgb(128,128,128)';
         bars.style.display = 'inline';
         bars.style.color = '#d9264b';  
-        logo.style.color = '#d9264b';
+        logo.style.display = 'inline';
+        logo.style.color = '#d9264b'; 
         wpp.style.position = 'fixed';
         wpp.style.top = 'auto';
         wpp.style.bottom = '17.5px';

@@ -118,7 +118,6 @@ p, ul {
     position:sticky;
     top: 0px;
     z-index: 2000;
-    box-shadow: 0 2px 8px -2px rgb(128,128,128);
 }
 
 .header__contenedor {
@@ -134,11 +133,11 @@ p, ul {
 
 .header__logo {
 
-    color: transparent;
     text-decoration: none;
     font-size: 22px;
     margin-left: 20px;
     font-weight: 500;
+    color: transparent;
 }
 
 .header__bars {
