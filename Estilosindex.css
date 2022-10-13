@@ -1059,14 +1059,14 @@ padding: 0;
         display: flex;
     }
 
-    .banner-invisible {
-
-        height: 680px;
-    }
-    
     .banner {
-    
-        height: 770px;
+
+        height: 675px;
+    }
+
+    .banner__invisible {
+
+        height: 605px;
     }
 
     .banner__contenedor {
