@@ -909,16 +909,6 @@ padding: 0;
         background-attachment: fixed;
     }
 
-    .banner-invisible {
-
-        height: 780px;
-    }
-    
-    .banner {
-    
-        height: 850px;
-    }
-    
     .banner__title {
 
         font-size: 50px;
