@@ -836,6 +836,7 @@ padding: 0;
     .servicios {
 
         background-attachment: fixed;
+        background-position: 0px;
     }
 
     .servicios__icon {
