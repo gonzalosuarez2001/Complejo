@@ -514,7 +514,7 @@ border-radius: 7.6px;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
-/*transition: all 0.6s;*/
+transition: 0.6s;
 }
 
 
