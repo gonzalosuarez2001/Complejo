@@ -5,6 +5,8 @@ ALEJO
 Agregar como ubicacion existente en google maps.
 Agregar imagenes q faltan y video.
 
+
+JS INNECESARIO
 var dep1= document.getElementById('dep1');
 var dep2= document.getElementById('dep2');
 var dep3= document.getElementById('dep3');
