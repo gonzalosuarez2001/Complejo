@@ -811,14 +811,17 @@ padding: 0;
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
+
     .banner__title {
 
         font-size: 50px;
     }
 
-    .banner_contenedor {
+    .banner__contenedor {
 
         background-attachment: fixed;
+        background-position-x: -200px;
+        background-position-y: -50px;
     }
     
     .nav__items:hover {
@@ -831,7 +834,7 @@ padding: 0;
         width: 70%;
     }
 
-    .servicion {
+    .servicios {
 
         background-attachment: fixed;
     }
@@ -902,7 +905,7 @@ padding: 0;
 
     .banner__contenedor {
 
-        background-position-x: -200px;
+        background-position-x: -50px;
         background-attachment: fixed;
     }
 
@@ -1068,7 +1071,7 @@ padding: 0;
 
     .banner__contenedor {
 
-        background-position-x: -100px;
+        background-position-x: 0px;
         background-attachment: fixed;
     }
 
