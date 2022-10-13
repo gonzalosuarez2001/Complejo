@@ -820,7 +820,7 @@ padding: 0;
     .banner__contenedor {
 
         background-attachment: fixed;
-        background-position-x: -200px;
+        background-position-x: 0px;
     }
     
     .nav__items:hover {
@@ -968,9 +968,10 @@ padding: 0;
         border-top: none;
     } 
 
-    .servicion {
+    .servicios {
 
         background-attachment: fixed;
+        background-position: 0px;
     }
 
     .servicios__icon {
@@ -1131,8 +1132,8 @@ padding: 0;
 
     .servicios {
 
-        background-position: -100px;
         background-attachment: fixed;
+        background-position: 0px;
     }
 
     .servicios__contenedor {
@@ -1248,7 +1249,6 @@ padding: 0;
     .banner__contenedor {
 
         background-position-x: 0;
-        background-position-y: -50px;
         background-attachment: fixed;
     }
 
@@ -1304,8 +1304,8 @@ padding: 0;
 
     .servicios {
 
-        background-position: 0;
         background-attachment: fixed;
+        background-position: 0px;
     }
 
     .servicios__contenedor {
