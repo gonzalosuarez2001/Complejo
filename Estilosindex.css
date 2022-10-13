@@ -821,7 +821,6 @@ padding: 0;
 
         background-attachment: fixed;
         background-position-x: -200px;
-        background-position-y: -50px;
     }
     
     .nav__items:hover {
@@ -905,7 +904,7 @@ padding: 0;
 
     .banner__contenedor {
 
-        background-position-x: -50px;
+        background-position-x: 0px;
         background-attachment: fixed;
     }
 
