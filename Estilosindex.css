@@ -502,11 +502,10 @@ color: #fff;
 .portfolio .portfolio-item {
 margin-bottom: 30px;
 cursor: pointer;
-transition: all 0.6s;
 }
 
 .portfolio .portfolio-item:hover {
-transform: scale(1.10);
+transform: scale(1);
 }
 
 .portfolio .portfolio-item .portfolio-img {
@@ -858,6 +857,10 @@ padding: 0;
         font-size: 16px;
     }
 
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.10);
+    }
+
     .ubicacion {
 
         background-attachment: fixed;
@@ -992,6 +995,10 @@ padding: 0;
 
     .portfolio #portfolio-flters li {
         font-size: 17px;
+    }
+
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.10);
     }
 
     .ubicacion {
@@ -1154,6 +1161,10 @@ padding: 0;
 
     .portfolio #portfolio-flters li {
         font-size: 17px;
+    }
+
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.10);
     }
 
     .ubicacion {
@@ -1326,6 +1337,10 @@ padding: 0;
 
     .portfolio #portfolio-flters li {
         font-size: 17px;
+    }
+
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.10);
     }
 
     .ubicacion {
