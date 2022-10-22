@@ -181,7 +181,7 @@ function scrollAnimado() {
     let scrollTop = document.documentElement.scrollTop;
     for(var i = 0; i < departamentos__scroll.length; i++) {
         let alturaDepartamentos = departamentos__scroll[i].offsetTop;
-        if(alturaDepartamentos - 535 < scrollTop) {
+        if(alturaDepartamentos - 600 < scrollTop) {
             departamentos__scroll[i].style.opacity = 1;
         }
     }
