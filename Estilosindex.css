@@ -227,6 +227,11 @@ p, ul {
     font-weight: 700;
 }
 
+.header__logo2:hover {
+
+    color: var(--color-rojo);
+}
+
 .nav__menu2 {
 
     display: flex;
