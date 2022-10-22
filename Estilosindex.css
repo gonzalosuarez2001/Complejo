@@ -666,7 +666,7 @@ transform: scale(1.10);
 
 .footer__icon {
 
-    font-size: 35px;
+    font-size: 30px;
     cursor: pointer;
     transition: .2s;
     color: white;
@@ -754,7 +754,6 @@ transform: scale(1.10);
 
     .footer__text {
 
-        font-size: 12px;
         line-height: 0;
         padding: 2px;
     }
@@ -841,7 +840,6 @@ transform: scale(1.10);
 
     .footer__text {
 
-        font-size: 13px;
         line-height: 0;
         padding: 2px;
     }
@@ -1001,7 +999,7 @@ transform: scale(1.10);
 
     .footer__text {
 
-        font-size: 13px;
+        font-size: 12px;
         line-height: 0;
         padding: 2px;
     }
